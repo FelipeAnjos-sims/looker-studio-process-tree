@@ -2,11 +2,9 @@
   "name": "Árvore de Processos Interativa",
   "version": "1.0.0",
   "organization": "Custom",
-  "logoUrl": "",
   "components": [
     {
       "name": "ProcessTree",
-      "iconUrl": "",
       "path": "index.html",
       "supportedInteractionModels": {
         "singleSelect": true
@@ -18,8 +16,12 @@
         {
           "id": "default",
           "label": "Dados da Árvore",
-          "metrics": [{ "id": "metric_val", "label": "Métrica", "type": "NUMBER", "min": 1, "max": 1 }],
-          "dimensions": [{ "id": "dim_branch", "label": "Ramificações", "type": "STRING", "min": 1, "max": 5 }]
+          "metrics": [
+            { "id": "metric_val", "label": "Métrica", "type": "NUMBER", "min": 1, "max": 1 }
+          ],
+          "dimensions": [
+            { "id": "dim_branch", "label": "Ramificações do Processo", "type": "STRING", "min": 1, "max": 5 }
+          ]
         }
       ]
     }
