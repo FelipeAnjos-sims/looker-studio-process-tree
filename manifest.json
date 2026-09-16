@@ -1,0 +1,13 @@
+{
+  "name": "Árvore de Processos Customizada",
+  "logo": "",
+  "organization": "Felipe Anjos",
+  "organizationUrl": "https://github.com/FelipeAnjos-sims",
+  "supportUrl": "https://github.com/FelipeAnjos-sims/looker-studio-process-tree/issues",
+  "description": "Componente de árvore de processos com barras de progresso proporcionais.",
+  "privacyPolicyUrl": "https://github.com/FelipeAnjos-sims",
+  "termsOfServiceUrl": "https://github.com/FelipeAnjos-sims",
+  "component": {
+    "js": "https://cdn.jsdelivr.net/gh/FelipeAnjos-sims/looker-studio-process-tree@main/index.js"
+  }
+}
